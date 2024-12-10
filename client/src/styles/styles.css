@@ -1,0 +1,44 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Asegura que el cuerpo ocupe todo el alto */
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* El contenedor principal ocupa todo el alto */
+}
+
+main {
+  flex: 1; /* El contenido principal se expande para ocupar el espacio restante */
+}
+
+footer {
+  background-color: #A020F0;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../assets/images/Tipos-de-condominio.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+  }
+  a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
